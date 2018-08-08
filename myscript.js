@@ -14,7 +14,7 @@ function drawCircle(circ) {
     c.fill();
 }
 
-for (k = 0; k < 100; k++) {
+for (k = 0; k < 500; k++) {
 
     var rad = Math.random()*15 + 30;
     var x = Math.random() * (canvas.width - r*2) + r;

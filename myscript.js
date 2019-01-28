@@ -12,10 +12,10 @@ function drawCircle(circ) {
     c.arc(circ.x, circ.y, circ.r, 0, Math.PI * 2, true);
     c.fillStyle = circ.color;
     c.fill();
-    c.fillText("Gay",circ.x,circ.y);
+    c.fillText("Yeeticus",circ.x,circ.y);
 }
 
-for (k = 0; k < 500; k++) {
+for (k = 0; k < 10; k++) {
 
     var rad = Math.random()*15 + 30;
     var x = Math.random() * (canvas.width - r*2) + r;

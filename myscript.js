@@ -12,6 +12,7 @@ function drawCircle(circ) {
     c.arc(circ.x, circ.y, circ.r, 0, Math.PI * 2, true);
     c.fillStyle = circ.color;
     c.fill();
+    c.fillText("Gay",circ.x,circ.y);
 }
 
 for (k = 0; k < 500; k++) {
